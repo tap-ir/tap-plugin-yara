@@ -1,5 +1,5 @@
 [package]
-name = "tap-plugin-s3"
+name = "tap-plugin-yara"
 version = "0.1.0"
 authors = ["Solal Jacob"]
 edition = "2021"
