@@ -13,7 +13,7 @@ use serde::{Serialize, Deserialize};
 use schemars::{JsonSchema};
 use yara::Compiler;
 
-plugin!("yara", "Malware", "Yara", YaraPlugin, Arguments);
+plugin!("yara", "Malware", "Scan file content with YARA", YaraPlugin, Arguments);
 
 #[derive(Debug, Serialize, Deserialize, JsonSchema)]
 pub struct Arguments
